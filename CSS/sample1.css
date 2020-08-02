@@ -1,0 +1,39 @@
+.heading{
+    text-align: center;
+    color: brown;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* Box1 */
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+}
+/* Box2 */
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: darkmagenta;
+}
+/* Box3 */
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: darkturquoise;
+}
+/* Box4 */
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: darkturquoise;
+}
+#box5{
+    height: 300px;
+    width: 300px;
+    background-color: darkturquoise;
+    margin: 0 auto;
+    border-radius: 50%;
+}

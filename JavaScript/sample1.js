@@ -1,9 +1,29 @@
+
+// Heading Animation
+var element = document.querySelector("#heading");
+element.animate(
+    [
+        {transform: 'scale(0.5)',},
+        {transform: 'scale(2)',},
+        {transform: 'scale(0.5)',},
+        {transform: 'translate(550px,0)',},
+        {transform: 'translate(0,0)',},
+        {transform: 'translate(-550px,0)',},
+        {transform: 'translate(550px,0)',},
+        {transform: 'translate(0,0)',},
+
+    ],
+    {
+        duration: 15000,
+        iterations: Infinity
+    }
+)
 //  Box1 Animation
 var element = document.querySelector("#box1");
 element.animate(
     [
         { transform: 'translate(0,0)' },
-        { transform: 'translate(1100px,0)',backgroundColor: 'grey',},
+        { transform: 'translate(1100px,0)',backgroundColor: 'gray',},
         { transform: 'translate(1100px,400px)', backgroundColor: 'sky',},
         { transform: 'translate(0,400px)', backgroundColor: 'grey',},
         { transform: 'translate(0,0)', backgroundColor: 'yellow',},

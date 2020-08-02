@@ -1,6 +1,7 @@
-.heading{
+#heading{
     text-align: center;
     color: brown;
+    text-transform: uppercase;
 }
 .container{
     width: 90%;
@@ -11,29 +12,55 @@
     height: 100px;
     width: 100px;
     background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
 }
 /* Box2 */
 #box2{
     height: 100px;
     width: 100px;
     background-color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
 }
 /* Box3 */
 #box3{
     height: 100px;
     width: 100px;
     background-color: darkturquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
 }
 /* Box4 */
 #box4{
     height: 100px;
     width: 100px;
     background-color: darkturquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
 }
+/* box 5 */
 #box5{
     height: 300px;
     width: 300px;
     background-color: darkturquoise;
     margin: 0 auto;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
 }

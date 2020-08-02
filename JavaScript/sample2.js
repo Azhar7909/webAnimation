@@ -33,9 +33,9 @@ var elem = document.querySelector('#cloud6');
 
 var animatedElem = elem.animate([
     { transform: 'translate(0,0)' },
-    { transform: 'translate(-200px,0)' },
+    { transform: 'translate(-800px,0)' },
     { transform: 'translate(20vw,20px)' },
-    { transform: 'translate(200px,80px)' },
+    { transform: 'translate(50px,40px)' },
     { transform: 'translate(0,0)' },
 
 ], {
